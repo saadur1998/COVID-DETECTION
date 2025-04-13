@@ -1,27 +1,27 @@
 # COVID-DETECTION
 
-A deep learning-based approach for detecting COVID-19 from chest X-ray images using the ResNet-9 architecture.
+A deep learning-based approach for detecting COVID-19 from chest X-ray images using the ResNet-9 architecture.
 
 ## Overview
 
-This project aims to develop a convolutional neural network (CNN) model capable of classifying chest X-ray images into COVID-19 positive or negative categories. Leveraging the ResNet-9 architecture, the model is trained on labeled datasets to assist in the rapid and accurate detection of COVID-19 cases.
+This project aims to develop a convolutional neural network (CNN) model capable of classifying chest X-ray images into COVID-19 positive or negative categories. Leveraging the ResNet-9 architecture, the model is trained on labeled datasets to assist in the rapid and accurate detection of COVID-19 cases.
 
 ## Repository Contents
 
-- **CovidData_training.ipynb**: Jupyter Notebook containing data preprocessing steps, model architecture, training process, and evaluation metrics.
-- **LICENSE**: MIT License file outlining the terms of use.
-- **README.md**: This file, providing an overview and instructions for the project.
+- **CovidData_training.ipynb**: Jupyter Notebook containing data preprocessing steps, model architecture, training process, and evaluation metrics.
+- **LICENSE**: MIT License file outlining the terms of use.
+- **README.md**: This file, providing an overview and instructions for the project.
 
 ## ResNet-9 Architecture
 
-The model utilizes the ResNet-9 architecture, a simplified version of the original ResNet designed for efficiency and performance on smaller datasets. ResNet-9 comprises:
+The model utilizes the ResNet-9 architecture, a simplified version of the original ResNet designed for efficiency and performance on smaller datasets. ResNet-9 comprises:
 
-- Eight convolutional layers, each followed by batch normalization and ReLU activation.
-- Two residual connections: one from Conv1 to Conv3 and another from Conv5 to Conv7.
-- Four max-pooling layers to reduce the spatial dimensions of the feature maps.
-- A final dense (fully connected) layer for classification.
+- Eight convolutional layers, each followed by batch normalization and ReLU activation.
+- Two residual connections: one from Conv1 to Conv3 and another from Conv5 to Conv7.
+- Four max-pooling layers to reduce the spatial dimensions of the feature maps.
+- A final dense (fully connected) layer for classification.
 
-This architecture balances depth and computational efficiency, making it suitable for medical image classification tasks like COVID-19 detection. citeturn0search2
+This architecture balances depth and computational efficiency, making it suitable for medical image classification tasks like COVID-19 detection.
 
 ## Getting Started
 

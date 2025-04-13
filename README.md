@@ -29,64 +29,64 @@ This architecture balances depth and computational efficiency, making it suitabl
 
 Ensure you have the following installed:
 
-- Python 3.6 or higher
-- Jupyter Notebook
-- TensorFlow or PyTorch
-- NumPy
-- Pandas
-- Matplotlib
-- scikit-learn
+- Python 3.6 or higher
+- Jupyter Notebook
+- TensorFlow or PyTorch
+- NumPy
+- Pandas
+- Matplotlib
+- scikit-learn
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/saadur1998/COVID-DETECTION.git
    cd COVID-DETECTION
    ```
 
-
 
-2. Install the required packages:
+
+2. Install the required packages:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-
+
 
    *Note: If a `requirements.txt` file is not present, manually install the packages listed in the prerequisites.*
 
 ## Usage
 
-1. Open the Jupyter Notebook:
+1. Open the Jupyter Notebook:
 
    ```bash
    jupyter notebook CovidData_training.ipynb
    ```
 
-
 
-2. Follow the steps in the notebook to:
 
-   - Load and preprocess the dataset
-   - Define the ResNet-9 CNN architecture
-   - Train the model
-   - Evaluate performance metrics
-   - Visualize results
+2. Follow the steps in the notebook to:
+
+   - Load and preprocess the dataset
+   - Define the ResNet-9 CNN architecture
+   - Train the model
+   - Evaluate performance metrics
+   - Visualize results
 
 ## Dataset
 
-The dataset used for training and evaluation should consist of labeled chest X-ray images categorized as COVID-19 positive or negative. Ensure that the dataset is organized appropriately and paths are correctly set in the notebook.
+The dataset used for training and evaluation should consist of labeled chest X-ray images categorized as COVID-19 positive or negative. Ensure that the dataset is organized appropriately and paths are correctly set in the notebook.
 
 ## Results
 
-Upon training, the model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score. Visualizations like confusion matrices and ROC curves are also generated to assess the model's effectiveness.
+Upon training, the model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score. Visualizations like confusion matrices and ROC curves are also generated to assess the model's effectiveness.
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 ## License
 
